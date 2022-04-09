@@ -11,7 +11,7 @@ int main(void)
 
 	for (a = 0; a < 26; ++a)
 	{
-		putchar('a' + a + ' ');
+		putchar('a' + a + '\n');
 	}
 
 	return (0);
