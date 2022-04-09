@@ -9,13 +9,16 @@ int main(void)
 {
 	int i;
 
+	int a;
+
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		int upper_i = toupper(i);
-
 		putchar(i);
+	}
 
-		putchar(upper_i);
+	for (a = 'A'; a <= 'Z'; a++)
+	{
+		putchar(a);
 	}
 	putchar('\n');
 	return (0);
