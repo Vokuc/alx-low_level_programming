@@ -9,9 +9,7 @@ int main(void)
 {
 	int a;
 
-	int b = a/2;
-
-	for (let a = 'a'; a <= 'z'; a++)
+	for (a = 'z'; a >= 'a'; a--)
 	{
 		putchar(b);
 	}
