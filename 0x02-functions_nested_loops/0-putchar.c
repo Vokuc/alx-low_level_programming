@@ -6,7 +6,7 @@
  * Description: a program that prints _putchar
  * followed by a new line
  *
- * Return :int should return an int
+ * Return: int should return an int
  */
 int main(void)
 {
