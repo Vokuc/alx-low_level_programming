@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point 
+ * print_alphabet - Entry point
  *
  * Description: program that prints the alphabets
  * followed by a new line
@@ -15,6 +15,7 @@ void print_alphabet(void)
 	for (let = 'a'; let <= 'z'; let++)
 	{
 		_putchar(let);
-		_putchar('\n');
 	}
+
+	_putchar('\n');
 }
