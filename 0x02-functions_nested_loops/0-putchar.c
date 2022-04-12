@@ -11,7 +11,9 @@
  */
 int main(void)
 {
-	_putchar("_putchar");
+	char n[] = "_putchar";
+
+	_putchar(n);
 	_putchar('\n');
 
 	return (0);
