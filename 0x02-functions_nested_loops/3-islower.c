@@ -7,8 +7,8 @@
  */
 int _islower(int c)
 {
-	int a = 1;
-	int b = 0;
+	int a = '1';
+	int b = '0';
 
 	if (c == _islower(c))
 	{
