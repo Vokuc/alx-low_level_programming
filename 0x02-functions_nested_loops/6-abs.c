@@ -5,7 +5,7 @@
  *
  * Return: int returns int
  */
-int _abs(int)
+int _abs(int n)
 {
-	return _abs(int);
+	return _abs(n);
 }
