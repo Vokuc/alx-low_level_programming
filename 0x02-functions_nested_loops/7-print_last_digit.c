@@ -3,7 +3,7 @@
 /**
  * print_last_digit - function entry point
  * @n: number to be worked on
- * Return: an int which will be the last digit 
+ * Return: an int which will be the last digit
  */
 int print_last_digit(int n)
 {
