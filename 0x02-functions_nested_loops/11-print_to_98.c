@@ -6,6 +6,7 @@
  */
 void print_to_98(int n)
 {
+	int norm = 98;
 	int i;
 
 	if (n > 98)
@@ -28,6 +29,6 @@ void print_to_98(int n)
 	}
 	else
 	{
-		_putchar(98 + '0');
+		_putchar(norm + '0');
 	}
 }
