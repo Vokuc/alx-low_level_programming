@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mul - Entry point of functions that multiplies two integersi
+ * mul - Entry point of functions that multiplies two integers
  *
  * @a: The first integer
  * 
@@ -12,7 +12,7 @@
 int mul(int a, int b)
 {
 	int c = 0;
-	
+
 	c = a * b;
 
 	return (c);
