@@ -9,18 +9,20 @@
  * @n: number of integers passed to the function
  * Return: void
  */
-void print_numbers(const char *seperator, const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
+	va_list valist;
 	unsigned int i;
-	va_list args;
 
-	if (seperator == NULL)
-		seperator = "";
-	va_start(args, n);
-	for (i = n; i > 0; i = va_arg(args, int))
-		if (i < n - 1)
-			printf("%d", i);
-		else
-			printf("%d%s", i, seperator);
-	va_end(args);
+	va_start(valist, n);
+
+	for (i = 0; i < n; i++)
+	{
+		printf("%d", va_arg(valist, int));
+		if (separator && i < n - 1)
+			printf("%s", separator);
+	}
+
+	printf("\n");
+	va_end(valist);
 }
