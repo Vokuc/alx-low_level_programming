@@ -7,18 +7,35 @@
 void more_numbers(void)
 {
 int i;
-int counter;
+int first_num;
+int second_num;
+int result;
 
-for (counter = 1; counter <= 10; counter++)
+i = 0;
+result = 0;
+while (i < 10)
 {
-for (i = 0; i <= 14; i++)
+while (result <= 14)
 {
-if (i / 10 > 0)
+if (result < 10)
 {
-putchar((i / 10) + '0');
+second_num = result;
 }
-_putchar((i % 10) + '0');
+
+else
+{
+first_num = result / 10;
+second_num = result % 10;
+_putchar (first_num + '0');
 }
-_putchar('\n');
+
+_putchar (second_num + '0');
+
+result++;
 }
+i++;
+result = 0;
+_putchar ('\n');
+}
+
 }
